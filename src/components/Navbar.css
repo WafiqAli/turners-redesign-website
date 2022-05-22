@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Poppins;
+    src: url('../Fonts/Poppins/Poppins-Medium.ttf');
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px 0px 34px;
+    gap: 90px;
+
+    position: absolute;
+    max-width: 1543px;
+    max-height: 66px;
+    /*left: calc(50% - 1543px/2 + 188.5px);*/
+    top: 51px;
+
+    /* Turners Brand White */
+
+    background: #FFFFFF;
+}
+
+.navbar-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+
+    color: #373F41;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.navbar-link {
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #373F41;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
+.dropdown-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+    gap: 10px;
+
+    position: absolute;
+    
+    top: 60px;
+
+    /* Turners Brand White */
+
+    background: #FFFFFF;
+    /* Turners Button Drop Shadow */
+
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 25px 25px;
+}
+.dropdown-container.show {
+    display: block;
+}
+
+.dropdown-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.dropdown-container .dropdown-submenu {
+    position: absolute;
+    left: 100%;
+    top: 0px;
+
+}
+
+.dropdown-container .navbar-link {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    /* Turners Brand Black */
+    color: #373F41;
+}
