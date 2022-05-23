@@ -5,21 +5,20 @@
 
 .navbar-container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 120px 0px 34px;
-    gap: 90px;
+    padding: 0px 20px 0px 0px;
+    gap: 20px;
 
     position: absolute;
     max-width: 1543px;
     max-height: 66px;
     /*left: calc(50% - 1543px/2 + 188.5px);*/
-    top: 51px;
+    top: 60px;
 
-    /* Turners Brand White */
-
-    background: #FFFFFF;
+    background: var(--turners-brand-white);
 }
 
 .navbar-item {
@@ -31,7 +30,7 @@
     gap: 10px;
 
 
-    color: #373F41;
+    color: var(--turners-brand-black);
     /* Inside auto layout */
 
     flex: none;
@@ -46,15 +45,10 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
-    color: #373F41;
+    color: var(--turners-brand-black);
     border: none;
     background-color: transparent;
 }
-
-
-
-
-
 
 .dropdown-container {
     display: none;
@@ -69,7 +63,7 @@
 
     /* Turners Brand White */
 
-    background: #FFFFFF;
+    background: var(--turners-brand-white);
     /* Turners Button Drop Shadow */
 
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.12);
@@ -112,5 +106,23 @@
     display: flex;
     align-items: center;
     /* Turners Brand Black */
-    color: #373F41;
+    color: var(--turners-brand-black);
+}
+
+
+.searchbar > form > button {
+    background: transparent;
+    border: none;
+    vertical-align: middle;
+}
+
+.searchbar > form > img {
+    vertical-align: middle;
+}
+#searchbar-input {
+    width: 400px;
+    height: 35px;
+    text-decoration: none;
+    border: none;
+    vertical-align: middle;
 }
