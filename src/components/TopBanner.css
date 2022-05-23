@@ -1,0 +1,38 @@
+.grey-banner {
+    position: absolute;
+    width: 50%;
+    height: 650px;
+    background-color: var(--turners-brand-grey);
+    background-image: url('../image-assets/1_Homepage/Top Banner/Blue Lady.png');
+    background-repeat: no-repeat;
+    background-position: 55% 100%;
+
+}
+
+.blue-banner {
+    position: absolute;
+    margin-left: 50%;
+    width: 50%;
+    height: 650px;
+    background-color: var(--turners-brand-blue);
+}
+
+.flying-cars-banner {
+    position: absolute;
+    width: 1000px;
+    height: 650px;
+    margin-left: 40%;
+    background-image: url('../image-assets/1_Homepage/Top Banner/White Car.png'), url('../image-assets/1_Homepage/Top Banner/Red Car.png');
+    background-repeat: no-repeat;
+    background-position: 11% 100%, 90% -18%;
+}
+
+.banner-text-container {
+    font-family: 'Poppins-bold';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--turners-brand-black);
+    padding-left: 280px;
+    line-height: 69px;
+}

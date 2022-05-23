@@ -3,4 +3,14 @@
     --turners-brand-grey: #f3f3f3;
     --turners-brand-blue: #006bb3;
     --turners-brand-black: #373f41;
+    --turners-brand-red: #B71234;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url('./Fonts/Poppins/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: Poppins-bold;
+    src: url('./Fonts/Poppins/Poppins-Bold.ttf');
 }
