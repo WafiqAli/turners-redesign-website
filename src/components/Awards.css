@@ -1,0 +1,21 @@
+.awards-container {
+    width: 100%;
+    background-color: var(--turners-brand-white);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.awards-icon {
+    padding: 50px 10px 0 10px;
+}
+
+.awards-description {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--turners-brand-black);
+}
+

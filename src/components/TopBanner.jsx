@@ -1,9 +1,10 @@
 import React from 'react';
 import './TopBanner.css';
+import whiteCar from '../image-assets/1_Homepage/Top Banner/White Car.png';
 
 const TopBanner = () => {
   return (
-    <div>
+    <div className='topbanner-container'>
         <div className='grey-banner'>
             <div className='banner-text-container'>
                 <p>At
@@ -14,7 +15,8 @@ const TopBanner = () => {
             </div>
         </div>
         <div className='blue-banner'></div>
-        <div className='flying-cars-banner'></div>
+        <img className='flying-car-img' src={whiteCar} alt='flying car' />
+        {/* <div className='flying-cars-banner'></div> */}
     </div>
   )
 }

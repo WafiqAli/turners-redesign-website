@@ -63,6 +63,7 @@
 
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.12);
     border-radius: 0px 0px 25px 25px;
+    z-index: 99;
 }
 .dropdown-container.show {
     display: block;

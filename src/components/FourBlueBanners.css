@@ -1,0 +1,82 @@
+.fbb-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: var(--turners-brand-grey);
+}
+
+.fbb-banner {
+    width: 262px;
+    height: 441px;
+    background-color: var(--turners-brand-blue);
+    margin: 0 15px 0 15px;
+}
+
+.fbb-question {
+    font-family: 'Poppins-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--turners-brand-black);
+    line-height: 67px;
+}
+
+.fbb-text {
+    position: absolute;
+    height: 210px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    /* or 132% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3.2px;
+    /* Turners Brand Grey */
+    
+    color: var(--turners-brand-white);
+    
+    text-shadow: 0px 5px 17px rgba(0, 0, 0, 0.25);
+    transform: matrix(0.97, -0.26, 0.25, 0.96, 0, 0);
+}
+.fbb-text.one {
+    padding-left: 40px;
+}
+.fbb-text.two {
+    padding-left: 40px;
+}
+.fbb-text.three {
+    padding-left: 40px;
+}
+.fbb-text.four {
+    padding-left: 15px;
+}
+
+.fbb-button {
+    text-decoration: none;
+    border: none;
+    font-family: 'Poppins-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--turners-brand-black);
+    background-color: yellow;
+}
+.blue-girl {
+    position: absolute;
+}
+.blue-girl.one {
+    margin: 74px 1106px 0 0;
+}
+.blue-girl.two {
+    margin: 120px 0 0 380px;
+}
+.blue-girl.three {
+    margin: 171px 555px 0 0;
+}
+.blue-girl.four {
+    margin: 170px 0 0 642px;
+}
