@@ -1,0 +1,57 @@
+.vs-search-container {
+    width: 1396px;
+    height: 560px;
+    justify-content: center;
+}
+
+.vs-header {
+    font-family: 'Poppins-bold';
+    font-style: normal;
+    font-weight: 700;
+    color: var(--turners-brand-black);
+    font-size: 40px;
+    line-height: 64px;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+.vs-header > span {
+    background-image: url('../image-assets/1_Homepage/Interested_ Search_Now/Yellow Highlight.png');
+    background-repeat: no-repeat;
+}
+
+.vs-navbar {
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center; 
+}
+
+.vs-navbar-item {
+    margin: 0 1.6px 0 1.6px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px 15px 0px 0px;
+    background-color: var(--turners-brand-lightBlue);
+    width: 172px;
+    height: 45px;
+    text-align: center;
+    align-items: center; 
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--turners-brand-black);
+}
+
+.vs-content {
+    background-color: var(--turners-brand-grey);
+    box-sizing: border-box;
+    border: 5px solid #F3F3F3;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 25px 25px;
+}
+
+

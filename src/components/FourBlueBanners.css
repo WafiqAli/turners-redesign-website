@@ -63,7 +63,8 @@
     font-weight: 700;
     font-size: 24px;
     color: var(--turners-brand-black);
-    background-color: yellow;
+    background-image: url('../image-assets/1_Homepage/Interested_ Search_Now/Yellow Highlight.png');
+    background-size: cover;
 }
 .blue-girl {
     position: absolute;
