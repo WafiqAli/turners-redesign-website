@@ -1,0 +1,104 @@
+.carsTab-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.carsTab-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 22%; 
+    margin: 5px;
+    height: 110px;
+    padding: 20px 0 0 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--turners-brand-black);
+}
+
+.carsTab-item > img { 
+    width: 130px;
+}
+.carsTab-item > div  {
+    padding: 5px 0 0 0;
+}
+
+.carsTab-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.carsTab-form-fieldset {
+    flex: 0 0 22%;
+    border: none;
+    
+}
+.carsTab-form-fieldset > legend {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--turners-brand-black);
+}
+.carsTab-form-fieldset > input {
+    background-color: var(--turners-brand-white);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 25px;
+    width: 300px;
+    height: 32px;
+    border: solid 1px var(--turners-brand-grey);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+.carsTab-form-fieldset > span {
+    color: var(--turners-brand-black);
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 13px;
+}
+.carsTab-select {
+    background-color: var(--turners-brand-white);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 25px;
+    border: solid 1px var(--turners-brand-grey);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+.carsTab-select.normal {
+    width: 300px;
+    height: 32px;
+}
+.carsTab-select.short {
+    width: 142px;
+    height: 32px;
+}
+.carsTab-submit {
+    width: 300px;
+    height: 32px;
+    border-radius: 25px;
+    border: solid 1px var(--turners-brand-grey);
+    background-color: var(--turners-brand-red);
+    color: var(--turners-brand-grey);
+    font-family: 'Poppins-regular';
+    font-size: 16px;
+    text-indent: 10px;
+    letter-spacing: 1.5px;
+    margin-left: auto;
+    margin-right: 43px;
+    margin-top: 15px;
+    margin-bottom: 26px;
+}

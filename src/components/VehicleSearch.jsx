@@ -2,7 +2,7 @@ import React from 'react';
 import './VehicleSearch.css';
 import {useState} from 'react';
 import AuctionsTab from './vehicleSearchTabs/AuctionsTab';
-import CarsTab from './vehicleSearchTabs/CarsTab';
+import CarsTab from './vehicleSearchTabs/Cars/CarsTab';
 import TrucksMachineryTab from './vehicleSearchTabs/TrucksMachineryTab';
 import DamagedTab from './vehicleSearchTabs/DamagedTab';
 import BoatsMarineTab from './vehicleSearchTabs/BoatsMarineTab';
@@ -41,7 +41,7 @@ const VehicleSearch = () => {
     }
 
     return (
-    <div>
+    <div className='vs'>
         <h1 className='vs-header'>Interested? <span>Search Now!</span></h1>
         <div className='vs-search-container'>
             <div className='vs-navbar'>
@@ -56,9 +56,7 @@ const VehicleSearch = () => {
             </div>
             <div className='vs-content'> 
                 { activeTabJSX } 
-                <div className='vs-form'>
-
-                </div>
+                
             </div>
         </div>
     </div>

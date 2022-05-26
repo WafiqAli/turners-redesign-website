@@ -1,7 +1,13 @@
+.vs {
+    background-image: url('../image-assets/1_Homepage/Interested_ Search_Now/TwistyArrow.png');
+    background-repeat: no-repeat;
+    background-position: 30% 12%;
+    background-size: 60px;
+}
 .vs-search-container {
     width: 1396px;
     height: 560px;
-    justify-content: center;
+    margin: auto;
 }
 
 .vs-header {
@@ -19,7 +25,10 @@
     background-image: url('../image-assets/1_Homepage/Interested_ Search_Now/Yellow Highlight.png');
     background-repeat: no-repeat;
 }
-
+.vs-arrow-img {
+    position: absolute;
+    left: 100px;
+}
 .vs-navbar {
     display: flex;
     vertical-align: middle;
