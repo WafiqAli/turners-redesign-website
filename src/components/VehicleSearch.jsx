@@ -12,47 +12,53 @@ import BusCaravanTab from './vehicleSearchTabs/BusCaravanTab';
 
 const VehicleSearch = () => {
 
-    const [activeTab, setActiveTab] = useState('t2');
+    const [activeTab, setActiveTab] = useState('2');
     
     let activeTabJSX;
-    if (activeTab === 't1') {
+    if (activeTab === '1') {
         activeTabJSX =  <AuctionsTab/>;
     }
-    else if (activeTab === 't2') {
+    else if (activeTab === '2') {
         activeTabJSX = <CarsTab/>;
     }
-    else if (activeTab === 't3') {
+    else if (activeTab === '3') {
         activeTabJSX = <TrucksMachineryTab/>;
     }
-    else if (activeTab === 't4') {
+    else if (activeTab === '4') {
         activeTabJSX = <DamagedTab/>;
     }
-    else if (activeTab === 't5') {
+    else if (activeTab === '5') {
         activeTabJSX = <BoatsMarineTab/>;
     }
-    else if (activeTab === 't6') {
+    else if (activeTab === '6') {
         activeTabJSX = <MotorcyclesTab/>;
     }
-    else if (activeTab === 't7') {
+    else if (activeTab === '7') {
         activeTabJSX = <GeneralGoodsTab/>;
     }
-    else if (activeTab === 't8') {
+    else if (activeTab === '8') {
         activeTabJSX = <BusCaravanTab/>;
     }
+
+    const handleTabClick = (e) => {
+        e.preventDefault();
+        setActiveTab(e.target.id);
+    }
+
 
     return (
     <div className='vs'>
         <h1 className='vs-header'>Interested? <span>Search Now!</span></h1>
         <div className='vs-search-container'>
             <div className='vs-navbar'>
-                <div className={'vs-navbar-item t1 ' + (activeTab === "t1" ? "active" : "")}>Auctions</div>
-                <div className={'vs-navbar-item t2 ' + (activeTab === "t2" ? "active" : "")}>Cars</div>
-                <div className={'vs-navbar-item t3 ' + (activeTab === "t3" ? "active" : "")}>Trucks {'&'} Machinery</div>
-                <div className={'vs-navbar-item t4 ' + (activeTab === "t4" ? "active" : "")}>Damaged {'&'} End of Life</div>
-                <div className={'vs-navbar-item t5 ' + (activeTab === "t5" ? "active" : "")}>Boats {'&'} Marine</div>
-                <div className={'vs-navbar-item t6 ' + (activeTab === "t6" ? "active" : "")}>Motorcycles</div>
-                <div className={'vs-navbar-item t7 ' + (activeTab === "t7" ? "active" : "")}>General Goods</div>
-                <div className={'vs-navbar-item t8 ' + (activeTab === "t8" ? "active" : "")}>Buses, Caravans {'&'} Motorhomes</div>
+                <div id='1' onClick={handleTabClick} className={'vs-navbar-item ' + (activeTab === "1" ? "active" : "")}>Auctions</div>
+                <div id='2' onClick={handleTabClick} className={'vs-navbar-item ' + (activeTab === "2" ? "active" : "")}>Cars</div>
+                <div id='3' onClick={handleTabClick} className={'vs-navbar-item ' + (activeTab === "3" ? "active" : "")}>Trucks {'&'} Machinery</div>
+                <div id='4' onClick={handleTabClick} className={'vs-navbar-item ' + (activeTab === "4" ? "active" : "")}>Damaged {'&'} End of Life</div>
+                <div id='5' onClick={handleTabClick} className={'vs-navbar-item ' + (activeTab === "5" ? "active" : "")}>Boats {'&'} Marine</div>
+                <div id='6' onClick={handleTabClick} className={'vs-navbar-item ' + (activeTab === "6" ? "active" : "")}>Motorcycles</div>
+                <div id='7' onClick={handleTabClick} className={'vs-navbar-item ' + (activeTab === "7" ? "active" : "")}>General Goods</div>
+                <div id='8' onClick={handleTabClick} className={'vs-navbar-item ' + (activeTab === "8" ? "active" : "")}>Buses, Caravans {'&'} Motorhomes</div>
             </div>
             <div className='vs-content'> 
                 { activeTabJSX } 

@@ -54,7 +54,13 @@
     line-height: 18px;
     color: var(--turners-brand-black);
 }
-
+.vs-navbar-item:hover {
+    cursor: pointer;
+}
+.vs-navbar-item.active {
+    background-color: var(--turners-brand-blue);
+    color: var(--turners-brand-white);
+}
 .vs-content {
     background-color: var(--turners-brand-grey);
     box-sizing: border-box;
