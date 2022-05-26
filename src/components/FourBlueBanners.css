@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     background-color: var(--turners-brand-grey);
+    margin-top: 60px;
 }
 
 .fbb-banner {
@@ -18,7 +19,7 @@
     font-weight: 700;
     font-size: 64px;
     color: var(--turners-brand-black);
-    line-height: 67px;
+    line-height: 62px;
 }
 
 .fbb-text {

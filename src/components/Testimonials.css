@@ -1,0 +1,121 @@
+.testimonials-container {
+    color: var(--turners-brand-black);
+    width: 1115px;
+    margin: auto;
+    margin-top: 120px;
+}
+.test-title {
+    text-align: center;
+}
+.test-title > h1 {
+    font-family: 'Poppins-bold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+}
+.test-title > h2 {
+    font-family: 'Poppins-regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.test-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test-navbar-item {
+    display: flex;
+    flex: 0 0 20%;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    margin: 10px 15px 80px 15px;
+
+    border-radius: 25px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: var(--turners-brand-white);
+    
+    font-family: 'Poppins-regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+.test-navbar-item:hover {
+    cursor: pointer;
+}
+.test-navbar-item.active {
+    background-color: var(--turners-brand-blue);
+    color: var(--turners-brand-white);
+}
+
+
+.review-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-card {
+    flex-grow: 0;
+    width: 356px;
+    height: 360px;
+    padding: 20px;
+    margin: 0 10px 0 25px;
+    border-radius: 25px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: var(--turners-brand-white);
+
+    font-family: 'Poppins-regular';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+}
+.review-card-name-date {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.review-card.c1 {
+    background-image: url('../image-assets/1_Homepage/Testimonials/Ahmed Ibrahim_Portrait.png'), url(../image-assets/1_Homepage/Testimonials/Wave_Red.png);
+    background-repeat: no-repeat;
+    background-position: 50% 80%, 0 100%;
+}
+.review-card.c2 {
+    background-image: url('../image-assets/1_Homepage/Testimonials/Sandra Y_Portrait.png'), url('../image-assets/1_Homepage/Testimonials/Wave_Light Blue.png');
+    background-repeat: no-repeat;
+    background-position: 50% 80%, 0 100%;
+}
+.review-card.c3 {
+    background-image: url('../image-assets/1_Homepage/Testimonials/Mitch Janes_Portrait.png'), url('../image-assets/1_Homepage/Testimonials/Wave_Blue.png');
+    background-repeat: no-repeat;
+    background-position: 50% 80%, 0 100%;
+}
+
+.review-arrows {
+    font-size: 80px;
+    color: var(--turners-brand-black);
+}
+.review-arrows:hover {
+    cursor: pointer;
+    color: var(--turners-brand-blue);
+}
+
+.review-page-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review-page-count > div {
+    margin: 50px 5px 0 5px;
+}
+.review-page-circle {
+    color: var(--turners-brand-lightBlue);
+    text-align: center;
+}
+.review-page-circle.active {
+    color: var(--turners-brand-blue);
+}
+

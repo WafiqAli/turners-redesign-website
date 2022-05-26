@@ -19,6 +19,10 @@
     font-family: Poppins-regular;
     src: url('./Fonts/Poppins/Poppins-Regular.ttf');
 }
+@font-face {
+    font-family: Poppins-italics;
+    src: url('./Fonts/Poppins/Poppins-Italic.ttf');
+}
 
 button:hover {
     cursor: pointer;

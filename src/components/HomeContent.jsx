@@ -4,6 +4,7 @@ import TopBanner from './TopBanner';
 import Awards from './Awards';
 import FourBlueBanners from './FourBlueBanners';
 import VehicleSearch from './VehicleSearch';
+import Testimonials from './Testimonials';
 
 const HomeContent = () => {
   return (
@@ -12,6 +13,7 @@ const HomeContent = () => {
         <Awards />
         <FourBlueBanners />
         <VehicleSearch />
+        <Testimonials />
     </div>
   )
 }
