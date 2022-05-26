@@ -4,13 +4,10 @@ import { navItems } from './navItems';
 import searchIcon from '../image-assets/Navigation Bar/Search.png';
 import translateIcon from '../image-assets/Navigation Bar/Translation.png';
 import './Navbar.css';
+import SearchBar from './SearchBar';
 
 const Navbar = () => {
 
-  const handleSearch = () => {
-    console.log("search button click");
-  
-  }
 
   return (
     <div className='navbar-container'>
@@ -19,18 +16,7 @@ const Navbar = () => {
           return <NavbarItems items={menu} key={index} depthLevel={depthLevel}/>;
         })}
 
-        <div className='searchbar'>
-          <form action='/' method='get'>
-              <input 
-                type='text' 
-                id='searchbar-input'
-                name='s'
-                onSubmit={handleSearch}
-              />
-              <button type='submit'><img src={searchIcon} alt='search' /></button>
-              <img src={translateIcon} alt='translate' />
-          </form>
-        </div>
+        <SearchBar/>
     </div>
   )
 }

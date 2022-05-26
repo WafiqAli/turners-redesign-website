@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import searchIcon from '../image-assets/Navigation Bar/Search.png';
 import translateIcon from '../image-assets/Navigation Bar/Translation.png';
 
@@ -7,17 +8,14 @@ const SearchBar = () => {
     
     const [searchInput, setSearchInput] = useState("");
     const [results, setResults] = useState("");
-
+    
+    let navigate = useNavigate();
+    
     const handleChange = (e) => {
         // remove punctuation
         let input = e.target.value;
         setSearchInput(input);
 
-    }
-
-    const handleSearch = () => {
-        console.log("search button click");
-      
     }
     
     const filterPunctuation = (searchInput) => {
@@ -57,6 +55,7 @@ const SearchBar = () => {
                 console.log(res);
                 //console.log(res.webPages.value[0].url)
                 setResults(res);
+                navigate('/SearchResults', {state: {results: res}});
             }
         };
 
@@ -72,9 +71,8 @@ const SearchBar = () => {
                 name='s'
                 placeholder= ''
                 onChange={handleChange}
-                onSubmit={handleSearch}
                 />
-                <button type='submit' onClick={showResults} ><img src={searchIcon} alt='search' /></button>
+                <button type='submit' onClick={showResults}><img src={searchIcon} alt='search' /></button>
                 <img src={translateIcon} alt='translate' />
             </form>
         </div>

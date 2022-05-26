@@ -3,6 +3,7 @@ import './App.css';
 
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import PageNotImplemented from './pages/PageNotImplemented';
+import SearchResults from './pages/SearchResults';
 
 import Footer from "./components/Footer";
 import Header from './components/Header';
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomeContent />} />
           <Route path='/PageNotImplemented' element={<PageNotImplemented/>} />
+          <Route path='/SearchResults' element={<SearchResults />} />
         </Routes>
         <Footer/>
       </Router>

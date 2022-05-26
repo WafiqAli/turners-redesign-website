@@ -121,4 +121,8 @@
     text-decoration: none;
     border: none;
     vertical-align: middle;
+
+    font-family: Poppins-regular;
+    color: var(--turners-brand-black);
+    font-size: 18px;
 }
