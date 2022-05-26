@@ -26,7 +26,7 @@ const NavbarItems = ({ items, depthLevel }) => {
                 </>
                 
             ) : (
-                <Link to='/' className='navbar-link'>{items.title}</Link>
+                <Link to='/PageNotImplemented' className='navbar-link'>{items.title}</Link>
             )}
         </div>
   )
