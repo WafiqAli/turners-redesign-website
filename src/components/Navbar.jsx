@@ -1,8 +1,6 @@
 import React from 'react';
 import NavbarItems from './NavbarItems';
 import { navItems } from './navItems';
-import searchIcon from '../image-assets/Navigation Bar/Search.png';
-import translateIcon from '../image-assets/Navigation Bar/Translation.png';
 import './Navbar.css';
 import SearchBar from './SearchBar';
 

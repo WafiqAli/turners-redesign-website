@@ -7,7 +7,7 @@ import translateIcon from '../image-assets/Navigation Bar/Translation.png';
 const SearchBar = () => {
     
     const [searchInput, setSearchInput] = useState("");
-    const [results, setResults] = useState("");
+    //const [results, setResults] = useState("");
     
     let navigate = useNavigate();
     
@@ -54,7 +54,7 @@ const SearchBar = () => {
                 const res = JSON.parse(xhr.responseText);
                 console.log(res);
                 //console.log(res.webPages.value[0].url)
-                setResults(res);
+                //setResults(res);
                 navigate('/SearchResults', {state: {results: res}});
             }
         };
