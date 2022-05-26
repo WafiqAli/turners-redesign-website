@@ -24,6 +24,10 @@
     src: url('./Fonts/Poppins/Poppins-Italic.ttf');
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url('./Fonts/Roboto/Roboto-Regular.ttf');
+}
 button:hover {
     cursor: pointer;
 }

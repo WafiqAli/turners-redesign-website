@@ -5,6 +5,7 @@ import Awards from './Awards';
 import FourBlueBanners from './FourBlueBanners';
 import VehicleSearch from './VehicleSearch';
 import Testimonials from './Testimonials';
+import BackToTop from './BackToTop';
 
 const HomeContent = () => {
   return (
@@ -14,6 +15,7 @@ const HomeContent = () => {
         <FourBlueBanners />
         <VehicleSearch />
         <Testimonials />
+        <BackToTop />
     </div>
   )
 }

@@ -1,0 +1,63 @@
+footer {
+    background-color: var(--turners-brand-black);
+    color: var(--turners-brand-white);
+    padding: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+.footer > div {
+    font-family: Roboto;
+}
+
+.footer-list-header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.footer-list {
+    padding: 0;
+    margin: 0;
+}
+.footer-list > li {
+    list-style: none;
+    line-height: 30px;
+}
+.footer-list > li > a:hover {
+    color: var(--turners-brand-blue);
+}
+
+.footer-list > li > a {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--turners-brand-white);
+}
+
+.divider {
+    width: 90%;
+    height: 0px;
+    border: 0.5px solid var(--turners-brand-white);
+    margin: 45px 0 25px 5%;
+    transform: rotate(180deg);
+}
+.social-media {
+    padding: 0;
+    margin: 0;
+    margin: 0 0 0 5%;
+}
+.social-media > a {
+    color: var(--turners-brand-white);
+    text-decoration: none;
+}
+.social-media-icons {
+    font-size: 36px;
+    margin: 0 8px 0 7px;
+}
+.social-media-icons:hover {
+    cursor: pointer;
+    color: var(--turners-brand-blue);
+}
